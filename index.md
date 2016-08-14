@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Salil Dabholkar
+tagline: Welcome to the Mind Palace of Salil!
 ---
 {% include JB/setup %}
 
