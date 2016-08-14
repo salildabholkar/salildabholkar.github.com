@@ -83,13 +83,12 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : facebook
     disqus :
       short_name : jekyllbootstrap
     facebook :
       appid : 988110467952883
       num_posts: 5
-      width: 580
       colorscheme: light
 
    
