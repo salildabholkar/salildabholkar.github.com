@@ -67,6 +67,9 @@ h2 {
 h3 {
   font-size: 20px;
 }
+h4 {
+  font-size: 17px;
+}
 /* line 61, ../_sass/_base.scss */
 pre, code {
   color: #ccc;
@@ -463,4 +466,8 @@ table tr td[align="left"] {
 
 table tr td[align="center"] {
   text-align: center;
+}
+
+strong, b {
+	color: #ccc;
 }
