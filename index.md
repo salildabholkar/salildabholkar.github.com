@@ -17,7 +17,14 @@ I occasionally like to bake a cake.
 
 
 ## Research Experience
-I am a budding researcher dabbling in Data Science and Artificial Intelligence. My first research effort focused on developing a novel mechanism for automatically creating summaries of documents.
+I am a budding researcher dabbling in Data Science, Information Retrieval and Artificial Intelligence. 
+
+### Publications
+My first research effort focused on developing a novel mechanism for automatically creating summaries of textual documents. I found a way to use sentiment analysis along with appropriate fallback mechanisms to achieve the needed results. The paper was presented in ACM's **"INTERNATIONAL CONFERENCE ON INFORMATICS AND ANALYTICS"** and is available for reading on the [Digital Library](http://dl.acm.org).
+
+### Software Development
+I developed a software, lovingly called **"Quibble"**, for the [R&D Department of my institute](http://www.sfitengg.org/R_and_D.php). What initially began as a simple automation and marks curation tool is now developing into an advanced data analysis and visualization software. It allows the teacher to map exam questions to specific *Course Outcomes* and enter marks for students (or provide an excel sheet for past years, which was done manually). The software then automagically performs all the required computations and provides the user with the final CO mapping table with an option to save it as a PDF file.  
+All the data from students names, their marks to the CO Mapping is stored in a firebase database and can be used for getting useful insights. Which subjects do the students find difficult? Gender-to-marks relationships? Progress over the years? What are the underrepresented Course Outcomes? The project is still under development and having high expectations from it.
 
 
 ## Blog Posts

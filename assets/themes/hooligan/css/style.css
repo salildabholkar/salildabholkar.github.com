@@ -64,7 +64,9 @@ h1 {
 h2 {
   font-size: 30px;
 }
-
+h3 {
+  font-size: 20px;
+}
 /* line 61, ../_sass/_base.scss */
 pre, code {
   color: #ccc;
