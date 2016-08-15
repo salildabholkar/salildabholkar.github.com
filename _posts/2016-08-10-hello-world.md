@@ -10,3 +10,8 @@ Hello there. Considering the fact that this is my first post, don't expect much.
 <!--more-->
 
 # Overview
+```python
+def foo
+  puts 'foo'
+end
+```
