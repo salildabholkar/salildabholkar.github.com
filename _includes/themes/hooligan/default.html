@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <title>
       {% if page.title %}
-        {{ page.title }} - 
-      {% endif %}
-      {{ site.title }}
+        {{ page.title }}
+      {% else %}
+		{{ site.title }}
+	  {% endif %}
     </title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
@@ -113,7 +114,7 @@
 
     <footer>
       <div class="container">
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+        <p style="margin-top: 15px;">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
       </div>
     </footer>
 
