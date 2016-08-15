@@ -1,13 +1,13 @@
 ---
 layout: post
-category : lessons
+category: lessons
 tagline: "Hello from Salil"
 description: Salil says hello. This post is used as a playground for my experiments
-tags : [intro, beginner]
+tags: [intro, beginner]
 ---
 {% include JB/setup %}
 
-Hello there. Considering the fact that this is my first post, don't expect much. Blogging is a fairly new domain for me. This post is used as a playground for my experiments
+Hello there. Considering the fact that this is my first post, don't expect much. Blogging is a fairly new domain for me. This post is used as a playground for testing and experiments.
 <!--more-->
 
 # Overview
@@ -17,7 +17,9 @@ def foo
 end
 ```
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+* Quibble
+* Visual Programming Tool
+* Abuse Filters
+* Bots
+* SMW (maybe)
+* Portable Infoboxes
