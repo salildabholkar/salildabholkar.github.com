@@ -2,6 +2,7 @@
 layout: post
 category : lessons
 tagline: "Hello from Salil"
+description: Salil says hello
 tags : [intro, beginner]
 ---
 {% include JB/setup %}

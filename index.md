@@ -2,6 +2,7 @@
 layout: page
 title: Salil Dabholkar
 tagline: Welcome to Salil's Mind Palace!
+description: Salil Dabholkar takes you on a tour of his Mind Palace
 ---
 {% include JB/setup %}
 
