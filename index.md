@@ -15,6 +15,11 @@ I am also good with few general purpose programming languages like C, Java and R
 I have very good hygiene and outstanding hair :)
 I occasionally like to bake a cake.
 
+
+## Research Experience
+I am a budding researcher dabbling in Data Science and Artificial Intelligence. My first research effort focused on developing a novel mechanism for automatically creating summaries of documents.
+
+
 ## Blog Posts
 <ul class="posts">
   {% for post in site.posts %}

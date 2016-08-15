@@ -3,13 +3,14 @@ layout: post
 category : lessons
 tagline: Learn how Jekyll works
 tags : [intro, beginner, jekyll, tutorial]
-description: Introduction to Jekyll
+description: Introduction to Jekyll. Learn to use Jekyll to make your own blog.
 ---
 {% include JB/setup %}
 
 This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 <!--more-->
+
 
 ## Overview
 
@@ -21,8 +22,6 @@ dynamic components such as templates, partials, liquid code, markdown, etc. Jeky
 ### Examples
 
 This website is created with Jekyll. [Other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites).
-
-
 
 ### What does Jekyll Do?
 
@@ -64,7 +63,8 @@ Therefore if you like to keep things simple and you prefer the command-line over
 - Ability to host freely on GitHub Pages.
 - No database required.
 
-# How Jekyll Works
+
+## How Jekyll Works
 
 The following is a complete but concise outline of exactly how Jekyll works.
 
@@ -131,8 +131,6 @@ Jekyll expects your website directory to be laid out like so:
 
 Jekyll supports various configuration options that are fully outlined here:
 (<https://github.com/mojombo/jekyll/wiki/Configuration>)
-
-
 
 
 ## Content in Jekyll
@@ -360,9 +358,6 @@ If a template file specifies its own layout, it is effectively being used as a `
 That is to say loading a post file into a template file that refers to another template file with work in the way you'd expect; as a nested sub-template.
 
 
-
-
-
 ## How Jekyll Generates the Final Static Files.
 
 Ultimately, Jekyll's job is to generate a static representation of your website.
@@ -399,6 +394,7 @@ Remember, in Jekyll you are an end-user. Your API has only two components:
 All the data objects available to you in the templates via Liquid are outlined in the **API Section** of Jekyll-Bootstrap.
 You can also read the original documentation here: <https://github.com/mojombo/jekyll/wiki/Template-Data>
 
+
 ## Conclusion
 
 I hope this paints a clearer picture of what Jekyll is doing and why it works the way it does.
@@ -407,6 +403,7 @@ As noted, our main programming constraint is the fact that our API is limited to
 Jekyll-bootstrap is intended to provide helper methods and strategies aimed at making it more intuitive and easier to work with Jekyll =)
 
 **Thank you** for reading this far.
+
 
 ## Next Steps
 

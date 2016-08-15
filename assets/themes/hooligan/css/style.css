@@ -52,7 +52,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* line 49, ../_sass/_base.scss */
 h1, h2 {
-  margin: 0 0 15px;
+  margin: 10px 0 4px 0;
 }
 
 /* line 53, ../_sass/_base.scss */
@@ -181,7 +181,7 @@ hr {
 /* line 155, ../_sass/_base.scss */
 .page-header h1 {
   color: #eee;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 /* line 161, ../_sass/_base.scss */
@@ -408,4 +408,57 @@ div.sidebar section img.icon {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+}
+table {
+  margin: 1.2em 0;
+  padding: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 1em;
+  font: inherit;
+  border: 0;
+  text-shadow: none;
+  color: black;
+}
+
+tbody {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+table tr {
+  border: 0;
+  border-top: 1px solid #CCC;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+table tr:nth-child(2n) {
+  background-color: #F8F8F8;
+}
+
+table tr th, .livedemo table tr td {
+  font-size: 1em;
+  border: 1px solid #CCC;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+
+table tr th {
+ font-weight: bold;
+  background-color: #F0F0F0;
+}
+
+table tr td[align="right"] {
+  text-align: right;
+}
+
+table tr td[align="left"] {
+  text-align: left;
+}
+
+table tr td[align="center"] {
+  text-align: center;
 }
