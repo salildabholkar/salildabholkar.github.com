@@ -1,6 +1,6 @@
 <div class="page-header">
   <h1>
-    {{ page.title }} 
+    {{ page.title }}
     {% if page.tagline %}
       <small>{{ page.tagline }}</small>
     {% endif %}
@@ -41,7 +41,7 @@
     <hr>
     {% include JB/comments %}
   </div>
-  
+
   <div class="span4">
     <section>
       <h4>Published</h4>
@@ -49,7 +49,7 @@
       {% if page.updated %}
       <h4>Updated</h4>
       <div class="date"><span>{{ page.updated | date_to_long_string }}</span></div>
-      {% endif %}     
+      {% endif %}
     </section>
     {% if page.categories %}
       <section>
@@ -60,7 +60,7 @@
         </span>
         {% endfor %}
       </section>
-    {% endif %}     
+    {% endif %}
     {% unless page.tags == empty %}
       <section>
         <h4>Tags</h4>
@@ -74,7 +74,7 @@
 	 <section>
         <h4>Recent posts</h4>
         <ul class="posts">
-		  {% for post in site.posts %}
+		  {% for post in site.posts limit:5 %}
 			<li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
 		  {% endfor %}
 		</ul>

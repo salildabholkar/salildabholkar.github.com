@@ -304,7 +304,7 @@ div.content div#page-index {
 .zocial.rss:focus,
 .zocial.rss:hover {
   color:#fb9d3a !important;
-}  
+}
 
 /* Layout */
 /* line 2, ../_sass/_responsive.scss */
@@ -471,6 +471,9 @@ table tr td[align="center"] {
 strong, b {
 	color: #ccc;
 }
-li {
+.span8 li , .posts li {
 	margin: 10px 0;
+}
+.span8 li:last-child {
+    margin-bottom: 2em;
 }
