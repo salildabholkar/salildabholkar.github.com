@@ -1,8 +1,9 @@
 ---
 layout: post
-category : lessons
+category : guides
+title: "Guide to Using Jekyll"
 tagline: Learn how Jekyll works
-tags : [intro, beginner, jekyll, tutorial]
+tags : [intro, beginner, jekyll, guide]
 description: Introduction to Jekyll. Learn to use Jekyll to make your own blog.
 ---
 {% include JB/setup %}

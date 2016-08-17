@@ -471,3 +471,6 @@ table tr td[align="center"] {
 strong, b {
 	color: #ccc;
 }
+li {
+	margin: 10px 0;
+}

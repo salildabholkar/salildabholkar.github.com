@@ -1,2 +1,2 @@
-# salildabholkar.github.com
+# salildabholkar.github.io
 Personal blog
