@@ -33,7 +33,7 @@ It is important to familiarize yourself with all the weapons that AbuseFilter pr
 When you navigate to **Special:AbuseFilter** on your wiki, you will see all the filters added on your wiki in a tabular format.  
 This includes the Filter ID, decription, actions it will perform, its current status, last modification date, visibility and total hits.
 Here is a screenshot for better understanding:
-![Special:AbuseFilter page on Narutopedia]({{ site.url }}/assets/images/AF.png "Special:AbuseFilter page on Narutopedia")
+![Special:AbuseFilter page on Narutopedia](/assets/images/AF.PNG "Special:AbuseFilter page on Narutopedia")
 
 ### Inside each filter
 You can click on a filter's ID or description to enter the filter. Every filter consists of two sections:
