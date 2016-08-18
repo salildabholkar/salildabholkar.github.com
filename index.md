@@ -2,7 +2,7 @@
 layout: page
 title: Salil Dabholkar
 tagline: Welcome to Salil's Mind Palace!
-description: Salil Dabholkar takes you on a tour of his Mind Palace. Know more about him and his interests. Known widely as UltimateSupreme, Salil is an aspiring Web Developer and Programmer and is currently a student in St. Francis Institute of Technology.
+description: Salil Dabholkar takes you on a tour of his Mind Palace. Know more about him and his interests. Salil is an aspiring Web Developer and Programmer and is currently a student in St. Francis Institute of Technology.
 keywords: Salil, Salil Dabholkar, Salil Blog, UltimateSupreme, SFIT, St. Francis Institute of Technology, Research
 ---
 {% include JB/setup %}
@@ -11,9 +11,10 @@ keywords: Salil, Salil Dabholkar, Salil Blog, UltimateSupreme, SFIT, St. Francis
 My name is Salil. On the internet I am known by the nicknames "UltimateSupreme" (since long ago, too long to get rid of) or "UltiSup" (much more unique). Currently a student studying "Information Technology" in [St. Francis Institute of Technology](http://www.sfitengg.org), I am an aspiring Web Developer and Programmer.
 
 My primary skill is solid knowledge of end-to-end web development using CSS, HTML, JavaScript and bit of PHP.
-I am also good with few general purpose programming languages like C, Java and Ruby. Though these are the weapons of my choice, I do not favour one language over the other. Each language has its own elegance and style of winning you the war.
+I am also good with few general purpose programming languages like C, Java and Ruby. Though these are the weapons of my choice, I do not favour one language over the other. Each language has its own elegance and style of winning you the war. Like any good programmer worth his salt, I can learn a new one easily enough if I have a reason to.  
+Recently, I have been meddling with and taken a keen interest towards Data Science and Artificial Intelligence especially after my course work in "Data Mining and Business Intelligence" and "Intelligent Systems".
 
-I have very good hygiene and outstanding hair :)  
+I have very good hygiene and outstanding hair :)
 I occasionally like to bake a cake.
 
 

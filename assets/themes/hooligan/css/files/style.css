@@ -477,3 +477,6 @@ strong, b {
 .span8 li:last-child {
     margin-bottom: 2em;
 }
+p+ul {
+    margin-top: -10px;
+}

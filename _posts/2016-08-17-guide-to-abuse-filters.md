@@ -15,6 +15,7 @@ keywords: AbuseFilter, abuse filter, wikia, mediawiki, guide
 This guide assumes you already have installed the AbuseFilter extension on your mediawiki instance. It is recommended you also install the [AntiSpoof extension](https://www.mediawiki.org/wiki/Extension:AntiSpoof) to use string normalization features.
 
 ## What are AbuseFilters?
+The AbuseFilter is a tool that allows trusted editors on the wiki (usually sysops) to set controls mainly to address common patterns of harmful editing. It automatically compares every edit made against sets of conditions that are defined in user-created filters. If an edit matches the conditions of a filter, that filter will respond by logging the edit. It may also tag the edit summary, warn the editor, revoke his/her autoconfirmed status, and/or disallow the edit entirely. <sup>[[wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Edit_filter)]</sup>
 
 ## Important pages
 It is important to familiarize yourself with all the weapons that AbuseFilter provides you with:
@@ -41,6 +42,9 @@ You can click on a filter's ID or description to enter the filter. Every filter 
 + **Filter parameters:** Consists largely of the same Information you get from the dashboard as well as the code for the filter and any notes made by the author.
 + **Actions taken when matched:** Consists of various flags which control what actions should the filter take if an edit matches the rules set for the filter.
 
+### The Log page
+xyz
+
 
 ## Coding AbuseFilters
 
@@ -56,10 +60,17 @@ Perhaps the most commons usage of an AbuseFilter is to detect large removal of c
 We need to specify a threshold to determine what we consider as *"large"*. For this example we consider it as 900 characters.
 
 ```c
-!("autoconfirmed" in user_groups) &  /* Not autoconfirmed */
-(article_namespace == 0) &           /* 0 means articles (mainspace) */
-(edit_delta < -900) &                /* 900+ removed */
-!("#redirect" in lcase(added_lines)) & !(action == "delete") /* allow to turn it into a redirect or delete it */
+/* Not autoconfirmed */
+!("autoconfirmed" in user_groups) &
+
+/* 0 means articles (mainspace) */
+(article_namespace == 0) &
+
+/* 900+ removed */
+(edit_delta < -900) &
+
+/* allow to turn it into a redirect or delete it */
+!("#redirect" in lcase(added_lines)) & !(action == "delete")
 ```
 
 **Notes:** You can detect complete blanking by using `new_size == 0` in the third line instead.
@@ -69,23 +80,42 @@ Shouting is when a user types in all caps (SOMETHING LIKE THIS IS SHOUTING). Som
 But it can be very annoying for other users and might hide some legitimate comments in their noise.
 
 ```c
-! ("autoconfirmed" in user_groups)  /* Not autoconfirmed */
-& length(added_lines) > 1           /* User added something */
-&  !"#REDIRECT" in added_lines      /* Redirect in caps is alright */
-& added_lines rlike "[A-Z\s']{10}"  /* Detect caps from A to Z repeated 10 times */
+/* Not autoconfirmed */
+! ("autoconfirmed" in user_groups)
+
+/* User added something */
+& length(added_lines) > 1
+
+/* Redirect in caps is alright */
+&  !"#REDIRECT" in added_lines
+
+/* Detect caps from A to Z repeated 10 times */
+& added_lines rlike "[A-Z\s']{10}"
 ```
+**Notes:** You might want to restrict this filter only to "talk namespaces" like user and article talkpages or threads.
 
 ### Creation of other user's userpages
 Userpages are common places for vandalism or "revenge" against specific users.
 Sometimes user mistakenly use another user's userpage instead of talkpage.
 
 ```c
-action == "edit" &            /* Editing */
-article_articleid == 0 &      /* Creation of the page */
-!("sysop" in user_groups) &   /* Not sysop */
-article_namespace == 2 &      /* Userpage */
-!("/" in article_text) &      /* Subpages are fine */
-user_name != article_text     /* Allow user to create his own userpage */
+/* Editing */
+action == "edit" &
+
+/* Creation of the page */
+article_articleid == 0 &
+
+/* Not sysop */
+!("sysop" in user_groups) &
+
+/* Userpage */
+article_namespace == 2 &
+
+/* Subpages are fine */
+!("/" in article_text) &
+
+/* Allow user to create his own userpage */
+user_name != article_text
 ```
 
 ### Common profanity
