@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="/manifest.appcache">
   <head>
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
@@ -15,7 +15,7 @@
 	<style>html, body { background-color: #2a2a2a !important;}</style>
 	<link href="{{ ASSET_PATH }}/css/main.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css-social-buttons/css/zocial.stripped.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Advent+Pro|Oxygen" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Advent+Pro%7COxygen" rel="stylesheet">
 
 	<!-- fav and touch icons -->
     <link rel="shortcut icon" href="https://salildabholkar.github.io/favicon.ico">
@@ -38,7 +38,7 @@
               <span class="icon-bar"></span>
             </a>
 
-            <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+            <a class="brand" href="{{ HOME_PATH }}">Salil</a>
 
             <div class="nav-collapse">
               <ul class="nav">
@@ -108,7 +108,12 @@
 
     <footer>
       <div class="container">
-        <p style="margin-top: 15px;">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+        <p style="margin-top: 15px;">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+            <img src="/assets/images/html5.png" width="125" height="33"
+                style="margin-left: 1rem;"
+                alt="HTML5 Powered with CSS3 / Styling, Multimedia, Performance &amp; Integration, Semantics, and Offline &amp; Storage"
+                title="HTML5 Powered with CSS3 / Styling, Multimedia, Performance &amp; Integration, Semantics, and Offline &amp; Storage">
+        </p>
       </div>
     </footer>
 

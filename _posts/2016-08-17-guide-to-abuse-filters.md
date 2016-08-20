@@ -4,7 +4,7 @@ title: "Guide to Abuse Filters"
 description: "Salil teaches you the basics of AbuseFilters and shares his experience of working with them over the years."
 tagline: "Gotta Catch 'Em All"
 category: guides
-tags: [wikia, mediawiki, guide]
+tags: [wikia, mediawiki, guide, technical]
 keywords: AbuseFilter, abuse filter, wikia, mediawiki, guide
 ---
 {% include JB/setup %}
