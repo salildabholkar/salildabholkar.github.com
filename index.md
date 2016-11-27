@@ -22,6 +22,10 @@ I occasionally like to bake a cake.
 I am a budding researcher dabbling in Data Science, Information Retrieval and Artificial Intelligence.
 
 ### Publications
+<!-- ACM DL Article: Automatic Document Summarization using Sentiment Analysis -->
+<div class="acmdlitem" id="item2980362"><img src="http://dl.acm.org/images/oa.gif" width="25" height="25" border="0" alt="ACM DL Author-ize service" style="vertical-align:middle"/><a href="http://dl.acm.org/authorize?N27517" title="Automatic Document Summarization using Sentiment Analysis">Automatic Document Summarization using Sentiment Analysis</a><div style="margin-left:25px"><a href="http://dl.acm.org/author_page.cfm?id=99659084760" >Salil Dabholkar</a>, <a href="http://dl.acm.org/author_page.cfm?id=99659083162" >Yuvraj Patadia</a>, <a href="http://dl.acm.org/author_page.cfm?id=99659083680" >Prajyoti Dsilva</a><br />ICIA-16 Proceedings of the International Conference on Informatics and Analytics, 2016</div></div>
+<!-- ACM DL Bibliometrics: Automatic Document Summarization using Sentiment Analysis-->
+<div class="acmdlstat" id ="stats2980362"><iframe src="http://dl.acm.org/authorizestats?N27517" width="100%" height="30" scrolling="no" frameborder="0">frames are not supported</iframe></div>
 My first research effort focused on developing a novel mechanism for automatically creating summaries of textual documents. I found a way to use sentiment analysis along with appropriate fallback mechanisms to achieve the needed results. The paper was presented in ACM's **"INTERNATIONAL CONFERENCE ON INFORMATICS AND ANALYTICS"** and is available for reading in the [Digital Library](http://dl.acm.org).
 
 ### R&D Software
