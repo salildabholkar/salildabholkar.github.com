@@ -16,8 +16,8 @@ CACHE:
 /tags.html
 
 # offline.html will be displayed if the user is offline
-FALLBACK:
-/ /offline.html
+# FALLBACK:
+# / /offline.html
 
 NETWORK:
 *
