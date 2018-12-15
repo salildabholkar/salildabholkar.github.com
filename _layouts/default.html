@@ -1,6 +1,15 @@
----
-theme :
-  name : hooligan
----
-{% include JB/setup %}
-{% include themes/hooligan/default.html %}
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+
+      <div class="content container">
+          {{ content }}
+      </div>
+
+      {% include sidebar.html %}
+
+  </body>
+</html>

@@ -1,7 +1,8 @@
 ---
-theme :
-  name : hooligan
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/hooligan/page.html %}
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {{ content }}
+</div>

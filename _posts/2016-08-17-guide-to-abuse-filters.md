@@ -7,7 +7,6 @@ category: guides
 tags: [wikia, mediawiki, guide, technical]
 keywords: AbuseFilter, abuse filter, wikia, mediawiki, guide
 ---
-{% include JB/setup %}
 
 [Abuse Filters](https://www.mediawiki.org/wiki/Extension:AbuseFilter) are used in a mediawiki environment to prevent certain pre-defined actions. The filter can then be configured to take specific actions against the user. This guide teaches you how to create new filters and configure them.
 <!--more-->
