@@ -19,7 +19,7 @@ I found a way to use sentiment analysis along with appropriate fallback mechanis
 |    Project   | Description                                                                                                                                                                                      | Example Output                                                      | Links                  |
 |:------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|------------------------|
 | Game of Life using Deep Neural Net | Created a neural net to simulate [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). Learns to generate the next state from any given random initial state | ![Game of Life](assets/images/GoL/life.gif "Game of Life in action")  | [[code](https://github.com/salildabholkar/Deep-Learning/tree/master/GameOfLife)], [[blog]()] |
-| Deep Song | A deep learning based generator|   | [[code]()], [[blog]()] |
+| SarcDetect| Uses transfer learning for sarcasm detection in English Tweets (via [ULMFiT]({% post_url 2018-06-10-universal-language-model-fine-tuning %})) |  ![]()  | [[blog]({% post_url 2018-09-15-ulmfit-sarcasm-detection %})] |
 |--------------+------------+-----------------+----------------|
 
 
