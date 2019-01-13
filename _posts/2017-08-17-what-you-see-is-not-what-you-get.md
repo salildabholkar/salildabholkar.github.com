@@ -20,7 +20,7 @@ What do you see when you see the images below?
 ![Panda-like image](/assets/images/FoolNet/panda-shuttle.png "Panda-like image"){: .d-inline-block}
 ![Panda-like image](/assets/images/FoolNet/panda-soccer.png "Panda-like image"){: .d-inline-block}
 
-A Panda? Congratulations!
+A Panda? Congratulations! You are smart!
 
 But neural networks are not as smart as you.
 It turns out that even with all that terabytes of training,
@@ -127,3 +127,17 @@ invisible to humans.
 ![The net thinks it's a soccer ball](/assets/images/FoolNet/panda-soccer-inception.png "The net thinks it's a soccer ball")
 
 ## Implications
+* As we are manipulating pixels of the image, it is possible to fool systems even when the image
+is printed out on a paper. Thus fooling cameras and other sensors is easily possible.
+* If two or more neural nets were trained using the same data, all of these would be fooled by the generated image.
+
+### Security implications
+* Bypassing security systems using face detection (door lock, phone lock systems).
+* Tricking cheque scanner machines.
+* Can be used in black hat seo techniques.
+* Tricking self-driving cars into seeing red light as green light.
+
+## Tips to overcome fooling attempts
+* Generate adversarial images and add them to your training data, to make your system more resistant.
+* Use input transformations. These techniques are an effective defence against both Gray-Box and Black-Box attacks. <sup>[[C. Guo, 2017]](https://arxiv.org/abs/1711.00117)</sup>
+* Use distillation as a defence mechanism. <sup>[[N. Papernot, 2017]](https://arxiv.org/abs/1511.04508)</sup>
