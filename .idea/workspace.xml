@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23266e41-d9a2-4f8f-8ffa-b29762176de1" name="Default" comment="">
+    <list default="true" id="23266e41-d9a2-4f8f-8ffa-b29762176de1" name="Default" comment="updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
@@ -96,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543410755553</updated>
-      <workItem from="1569651558960" duration="708000" />
+      <workItem from="1569651558960" duration="1207000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1544788365025</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545566733886</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updates">
+      <created>1569652444874</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569652444874</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +170,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="Revert &quot;testing collab&quot;&#10;&#10;This reverts commit 81526d5" />
     <MESSAGE value="add sarcasm blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sarcasm blog" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
 </project>
