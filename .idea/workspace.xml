@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23266e41-d9a2-4f8f-8ffa-b29762176de1" name="Default" comment="updates" />
+    <list default="true" id="23266e41-d9a2-4f8f-8ffa-b29762176de1" name="Default" comment="minor css">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543410755553</updated>
-      <workItem from="1569651558960" duration="2030000" />
+      <workItem from="1569651558960" duration="2616000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1544788365025</created>
@@ -144,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569653470311</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="minor css">
+      <created>1569654130534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569654130534</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +192,7 @@
     <MESSAGE value="Revert &quot;testing collab&quot;&#10;&#10;This reverts commit 81526d5" />
     <MESSAGE value="add sarcasm blog" />
     <MESSAGE value="updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates" />
+    <MESSAGE value="minor css" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor css" />
   </component>
 </project>
