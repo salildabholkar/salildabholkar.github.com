@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23266e41-d9a2-4f8f-8ffa-b29762176de1" name="Default" comment="minor css">
+    <list default="true" id="23266e41-d9a2-4f8f-8ffa-b29762176de1" name="Default" comment="add traffic sign project">
+      <change afterPath="$PROJECT_DIR$/assets/images/traffic/classification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/traffic/classification2.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543410755553</updated>
       <workItem from="1569651558960" duration="4571000" />
+      <workItem from="1569709612345" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1544788365025</created>
@@ -154,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569654130534</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add traffic sign project">
+      <created>1569709861853</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1569709861853</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +204,7 @@
     <MESSAGE value="add sarcasm blog" />
     <MESSAGE value="updates" />
     <MESSAGE value="minor css" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor css" />
+    <MESSAGE value="add traffic sign project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add traffic sign project" />
   </component>
 </project>
