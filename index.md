@@ -29,7 +29,7 @@ I found a way to use sentiment analysis along with appropriate fallback mechanis
 # Top Blogs
 <div class="posts">
   
-  <h2>Paper summary series</h2>
+  <h3>Paper summary series</h3>
   I have been keeping a personal summary of interesting papers I read
   for my future self to look back and review them without having to
   read them all over again. I have put some of the interesting ones on my website:
@@ -44,7 +44,7 @@ I found a way to use sentiment analysis along with appropriate fallback mechanis
   
   {% for post in site.posts %}
     {% if post.layout == "post" %}
-        <h2><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+        <h3><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
 	    {{ post.excerpt }}
 	{% endif %}
   {% endfor %}
