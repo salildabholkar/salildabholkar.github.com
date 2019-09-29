@@ -1,46 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23266e41-d9a2-4f8f-8ffa-b29762176de1" name="Default" comment="minor fix" />
+    <list default="true" id="23266e41-d9a2-4f8f-8ffa-b29762176de1" name="Default" comment="minor css">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>index.html</find>
-      <find>index</find>
-      <find>poole</find>
-      <find>hyde</find>
-      <find>include</find>
-      <find>% include</find>
-      <find>archive</find>
-      <find>tagline</find>
-      <find>zocial</find>
-      <find>layout: page</find>
-      <find>HEAD</find>
-      <find>Salil D</find>
-      <find>assets</find>
-      <find>.content</find>
-      <find>abril</find>
-      <find>pt s</find>
-      <find>posts</find>
-      <find>h1</find>
-      <find>posts =</find>
-      <find>related_posts</find>
-      <find>baseurl</find>
-      <find>$</find>
-      <find>hat</find>
-      <find>tgan</find>
-      <find>TGAN</find>
-      <find>N</find>
-      <find>model_input_layer</find>
-      <find>model_output_layer</find>
-      <find>201</find>
-      <find>0.3</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1543410755553</updated>
       <workItem from="1569651558960" duration="4571000" />
-      <workItem from="1569709612345" duration="855000" />
+      <workItem from="1569709612345" duration="1560000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1544788365025</created>
@@ -166,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569710065162</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="minor css">
+      <created>1569710571661</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569710571661</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,9 +179,9 @@
     <MESSAGE value="Revert &quot;testing collab&quot;&#10;&#10;This reverts commit 81526d5" />
     <MESSAGE value="add sarcasm blog" />
     <MESSAGE value="updates" />
-    <MESSAGE value="minor css" />
     <MESSAGE value="add traffic sign project" />
     <MESSAGE value="minor fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor fix" />
+    <MESSAGE value="minor css" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor css" />
   </component>
 </project>
