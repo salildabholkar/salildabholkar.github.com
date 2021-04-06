@@ -29,10 +29,7 @@ I found a way to use sentiment analysis along with appropriate fallback mechanis
 # Top Blogs
 <div class="posts">
   
-  <h3>Paper summary series</h3>
-  I have been keeping a personal summary of interesting papers I read
-  for my future self to look back and review them without having to
-  read them all over again. I have put some of the interesting ones on my website:
+  Some interesting papers I recently came across:
   
   <ul>
       {% for post in site.posts %}
